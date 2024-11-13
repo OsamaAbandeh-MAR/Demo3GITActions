@@ -1,18 +1,9 @@
 name: Demo-1
-
 on: push
-
 jobs:
   demo-job1:
-  
-  runs-on: ubuntu-latest
-  
-  steps:
-  - name: check out repository code
-    uses: actions/checkout@v4
-  - run: echo "${cat hello_demo1.txt}"
-
-
-
-  
-  
+    runs-on: ubuntu-latest
+    steps:
+    - name: check out repository code
+      uses: actions/checkout@v4
+    - run: echo "${cat hello_demo1.txt}"
