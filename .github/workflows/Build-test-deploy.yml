@@ -25,16 +25,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repo - Test
         uses: actions/checkout@v4
 
-      - name: Use Node.js
+      - name: Use Node.js - Test
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
 
-      - name: Install NPM
+      - name: Install NPM - Test 
         run: npm install
 
-      - name: Build NPM
+      - name: Build NPM - Test
         run: npm test        
