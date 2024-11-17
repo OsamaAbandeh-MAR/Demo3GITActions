@@ -22,8 +22,8 @@ jobs:
       - name: Build NPM
         run: npm run build
   test:
+    needs: build
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo - Test
         uses: actions/checkout@v4
