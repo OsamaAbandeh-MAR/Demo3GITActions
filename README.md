@@ -1,6 +1,6 @@
 ## Project repository for the Pluralsight course, GitHub Actions: The Big Picture
 
-This repository contains the core web application files and configuration you'll need to follow along in the Pluralsight course, GitHub Actions: The Big Picture.
+This repository contains the core web application files and configuration you'll need to follow along in the Pluralsight course, GitHub Actions: The Big Picture. New line
 
 To follow along with the step-by-step instructions in the Essentials module, you will need to create a copy of this repository by doing the following:
 1. Click **Use this template** above the file list and select **Create a new repository**.
